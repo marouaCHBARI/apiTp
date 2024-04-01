@@ -13,5 +13,7 @@ test post
 ![testpost2](https://github.com/marouaCHBARI/apiTp/assets/107441438/4917fd39-6fb6-4446-9c8f-bd402aefc43f)
 ![testpost3](https://github.com/marouaCHBARI/apiTp/assets/107441438/ee803f72-2751-4997-ba41-264742da7de5)
 ![postDataBase](https://github.com/marouaCHBARI/apiTp/assets/107441438/c1c24fcd-10ac-41ae-846e-b4788598fea0)
+test comment article 
 
+![testcomment](https://github.com/marouaCHBARI/apiTp/assets/107441438/5ae7b89e-d677-4b01-aa8c-e1822d4276f3)
 
