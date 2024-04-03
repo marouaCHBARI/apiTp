@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-
+//c'est mieux ecrire tous en anglais 
 class Article extends Model
 {
     use HasFactory;
@@ -15,7 +15,7 @@ class Article extends Model
 
     protected $table = 'articles';
     protected $fillable = [
-        'titre', 'contenu', 'datePublication','contenuComment'
+        'title', 'content', 'publication_date'
     ];
    
     public $timestamps = false; 

@@ -14,7 +14,7 @@ class Comment extends Model
     }
     protected $table = 'comments';
     protected $fillable = [
-        'contenuComment', 'date', 'article_id'
+        'content_comment', 'date', 'article_id'
     ];
    
     public $timestamps = false;

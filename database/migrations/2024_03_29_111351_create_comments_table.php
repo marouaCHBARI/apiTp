@@ -6,15 +6,13 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
+    
     public function up(): void
 {
     Schema::create('comments', function (Blueprint $table) {
         $table->id();
         $table->integer('article_id')->unsigned();
-        $table->string('contenuComment');
+        $table->text('content_comment');
         $table->date('date');
         $table->timestamps();
 
@@ -23,9 +21,7 @@ return new class extends Migration
     });
 }
 
-    /**
-     * Reverse the migrations.
-     */
+    
     public function down(): void
     {
         Schema::dropIfExists('comments');

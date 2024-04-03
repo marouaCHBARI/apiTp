@@ -9,14 +9,9 @@ use Faker\Factory as Faker;
 
 class CommentSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        $this->call([
-            ArticlesSeeder::class
-        ]);
+        
         $faker = Faker::create();
 
         $articles = Article::all();
@@ -24,7 +19,7 @@ class CommentSeeder extends Seeder
             for ($i = 0; $i < 10; $i++) {
                 Comment::create([
                     'article_id' => $article->id,
-                    'contenuComment' => $faker->sentence,
+                    'content_comment' => $faker->sentence,
                     'date' => $faker->date,
                 ]);
             }
